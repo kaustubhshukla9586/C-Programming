@@ -1,0 +1,1 @@
+// Use conditional operators to check odd even and zero output
