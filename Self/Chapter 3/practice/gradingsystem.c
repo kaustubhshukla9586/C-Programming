@@ -9,17 +9,17 @@ int main() {
 
     
     if (marks>=90){
-        grade = 'A'; // we use '' for char and not double quotes
+        grade = 'O'; 
     } else if (marks>=80){
-        grade = 'B';
+        grade = 'A';
     } else if (marks>=70){
-        grade = 'C';
+        grade = 'B';
     } else if (marks>=60){
-        grade = 'D';
+        grade = 'C';
     } else if (marks>=50){
-        grade = 'E';
+        grade = 'D';
     } else {
-        grade = 'F';
+        grade = 'E';
     }
 
     printf("Your Grade is %c",grade);
