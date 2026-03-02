@@ -1,16 +1,16 @@
 #include <stdio.h>
 
 void thirty(int* a){
-    *a = *a * 30;
+    *a = *a * 30; // you can multiply the address
 }
 
 int main() {
-    int a = 30;
+    int a = 10;
 
-    printf("The address of a is %d\n",a);
+    printf("The Value of a is %d\n",a);
     
     thirty(&a);
-    printf("The address of a is %d \n",a);
+    printf("The Value of a is %d \n",a);
 
     return 0;
 }
