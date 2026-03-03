@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-long long int fib(int x){ /
+long long int fib(int x){ 
     if (x==1){
         return 1;
     }else if (x==0){
@@ -12,7 +12,7 @@ long long int fib(int x){ /
 
 int main() {
 
-    int x = 10;
+    int x = 5;
     printf("The fib is %d",fib(x));    
     return 0;
 }
