@@ -1,10 +1,8 @@
 #include <stdio.h>
 long long int fib(int x)
 {
-    if (x == 1){
-        return 1;
-    }else if (x == 0){
-        return 1;
+    if (x == 1 || x == 0){
+        return x;
     }else{
         return (fib(x - 1) + fib(x - 2));
     }
@@ -12,6 +10,7 @@ long long int fib(int x)
 
 int main()
 {
+    
     long long int a = 10;
     printf("%lld", fib(a));
 

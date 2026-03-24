@@ -15,12 +15,12 @@ int main() {
 
     // printf("%d",arrsize);
     
-    // for(int i=0;i<=10;i++){  // We are using fixed number for the 2nd condition for amount of elements inside the array to automate that we can use size of function and divide it by the bytes 1 elements is taking
+    // for(int i=0;i<10;i++){  // We are using fixed number for the 2nd condition for amount of elements inside the array to automate that we can use size of function and divide it by the bytes 1 elements is taking
     //     printf("%d\n",arr[i]);
     // }
 
 
-    for(int i=0;i<=arrsize;i++){ 
+    for(int i=0;i<arrsize;i++){ 
         printf("%d\n",arr[i]);
     }
 
