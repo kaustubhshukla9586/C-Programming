@@ -1,0 +1,10 @@
+1. Reverse an array - done 
+2. Find the largest and smallest element in an array - done
+3. Find if an array is sorted or not - 
+4. Remove duplicates from a sorted array
+5. Left rotate an array by 1 place
+6. Left rotate an array by K places
+7. Find the second largest element (without sorting)
+8. Move all zeros to the end
+9. Find the union and intersection of two sorted arrays
+10. Find the missing number in array of 1 to N
