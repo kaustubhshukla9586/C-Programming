@@ -2,6 +2,12 @@
 
 int main() {
 
+    // * = indirection / dereferencing ( operator name and function )
+    // & = address
+    
+    // *ptr = value at that location of p1 
+    // %x gives the pointer value in hexadecimal
+
     int i = 6;
     int* j = &i; // * is used when storing the pointer
     int** k = &j; // ** for storing the address j which is also a address of i
@@ -17,3 +23,4 @@ int main() {
      
     return 0;
 }
+
