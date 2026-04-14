@@ -30,11 +30,6 @@ int main() {
     float *p1 = &a;
     printf("%d ",*p1); // printf gives 10
     printf("%.1f",*p1); // gives 0.0 as output
-
-
-
-
-
      
     return 0;
 }
