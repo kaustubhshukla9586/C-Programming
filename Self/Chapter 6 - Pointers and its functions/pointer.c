@@ -7,7 +7,6 @@ int main() {
     int k = 73;
 
 
-
     // we can use both %u which is unsigned int and %p which is pointer to display the address and with %u you can see the exact numerical value of the address of the pointer variable
 
     printf("The address of i is %u\n",j);
