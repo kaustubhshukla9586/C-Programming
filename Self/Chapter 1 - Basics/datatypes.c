@@ -14,6 +14,7 @@ int main()
     // Just to check the size of these data types for your system specifically.
     printf("char  = %zu\n", sizeof(char)); 
     printf("int   = %zu\n", sizeof(int));
-    printf("float = %zu\n", sizeof(float));
+    printf("float = %zu\n", sizeof(double));
     return 0;
 }
+
